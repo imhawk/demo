@@ -1,0 +1,31 @@
+body{
+   /* background-color: rgb(245, 178, 166);*/
+}
+
+#container{
+    display: flex; /* taking css flexible box layout(design)*/ 
+    flex-direction:row ; /* "row-reverse"-> column reverse*/
+    justify-content: space-around; /* "flex-end" "space-around"  */ 
+    align-items: flex-start ;  /*flex-start flex-end center (set elements to the top etc)*/
+    flex-wrap: wrap; /* "nowrap" (default emergence scroll bar) -- "wrap" (overflowing elements subsequent rows)  */
+
+}
+h1 {
+    color: white;
+}
+
+.yellow{
+    background-color: bisque;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+}
+
+.green{
+    background-color: blueviolet;
+    padding: 1.5rem; /* "SIZE"*/
+    border-radius:10px;
+
+}
